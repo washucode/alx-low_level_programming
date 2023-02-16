@@ -16,6 +16,10 @@
 
 [1.Compiler](https://github.com/washucode/alx-low_level_programming/blob/master/0x00-hello_world/1-compiler) : Write a script that compiles a C file but does not link.
 
+[2.Assember](https://github.com/washucode/alx-low_level_programming/blob/master/0x00-hello_world/2-assembler): Write a script that generates the assembly code of a C code and save it in an output file.
+
+
+
 
 
 
