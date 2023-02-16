@@ -25,6 +25,10 @@
 
 [5. Hello, printf](https://github.com/washucode/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c): Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
 
+[6. Size is not grandeur, and territory does not make a nation](https://github.com/washucode/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c) : Write a C program that prints the size of various types on the computer it is compiled and run on.
+
+ 
+
 
 
 
