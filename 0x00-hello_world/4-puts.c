@@ -3,8 +3,7 @@
 /**
 * main - Main function of this project
 *
-* Description: Write '"Programming is like building a multilingual puzzle.
-* Return : Always 0
+* Return : returns zero
 */
 int main(void)
 {
