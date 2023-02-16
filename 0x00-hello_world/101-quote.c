@@ -9,8 +9,8 @@
 
 int main(void)
 {
-		char *mS = "and that piece of art is useful \" - Dora Korpar, 2015-10-19\n";
+		char *mS = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-		write(2,  mS, 61);
+		write(2,  mS, 60);
 		return (1);
 }
