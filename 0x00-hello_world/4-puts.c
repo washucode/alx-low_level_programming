@@ -3,7 +3,7 @@
 /**
  *main - Main funtion of this project
  *
- *Return : return 0 everytime
+ *return value of main : return 0 every single time
 */
 int main(void)
 {
