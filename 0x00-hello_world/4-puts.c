@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
-*main - Main funtion of this project
+* main - Main function of this project
 *
-*
-*
-*Return : Always 0 (Success)
+* Description: Write '"Programming is like building a multilingual puzzle.
+* Return : Always 0
 */
 int main(void)
 {
