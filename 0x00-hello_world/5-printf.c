@@ -10,6 +10,6 @@ int main(void)
 {
 char  *myString = "with proper grammar, but the outcome is a piece of art,";
 
-printf("%s", myString);
+printf("%s\n", myString);
 return (0);
 }
