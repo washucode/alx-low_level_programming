@@ -23,7 +23,7 @@
 
 [4. Hello, puts](https://github.com/washucode/alx-low_level_programming/blob/baf9c4106ebf9b360ba935bfe91313bae70e1a6b/0x00-hello_world/4-puts.c) : Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 
-[5. Hello, printf](): Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+[5. Hello, printf](https://github.com/washucode/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c): Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
 
 
 
