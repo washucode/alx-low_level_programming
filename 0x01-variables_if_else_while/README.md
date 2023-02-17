@@ -42,5 +42,5 @@
 8. [Hexadecimal](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c) :
 > Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 
-9. [Patience, persistence and perspiration make an unbeatable combination for success]():
+9. [Patience, persistence and perspiration make an unbeatable combination for success](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c):
 >Write a program that prints all possible combinations of single-digit numbers.
