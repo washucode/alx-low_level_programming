@@ -1,0 +1,16 @@
+#include  <stdio.h>
+/**
+ *  main - entry point of this program
+ *  Description : This program prints all alphabets in small caps
+ *
+ *  Return : Always zero
+ */
+int main(void)
+{
+	int myChar;
+
+	for (myChar = 'a' ;  myChar <= 'z' ; myChar++)
+		putchar(myChar);
+	putchar('\n');
+	return (0);
+}
