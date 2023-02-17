@@ -24,7 +24,10 @@
 3. [3. alphABET](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c) :
 >Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
+4. [When I was having that alphabet soup, I never thought that it would pay off](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c) :
 
+> Write a program that prints the alphabet in lowercase, followed by a new line.
+>Print all the letters except q and e
 
 
 
