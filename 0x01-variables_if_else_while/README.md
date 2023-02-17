@@ -33,6 +33,10 @@
 > Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
 
+6. [Numberz](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):
+> Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
+7. [Smile in the mirror](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c) :
+> Write a program that prints the lowercase alphabet in reverse, followed by a new line
 
 
