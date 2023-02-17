@@ -21,6 +21,11 @@
 > You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 > All your code should be in the main function
 
+3. [3. alphABET](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c) :
+>Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+
+
 
 
 
