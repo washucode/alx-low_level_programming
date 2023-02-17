@@ -39,4 +39,8 @@
 7. [Smile in the mirror](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c) :
 > Write a program that prints the lowercase alphabet in reverse, followed by a new line
 
+8. [Hexadecimal](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c) :
+> Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 
+9. [Patience, persistence and perspiration make an unbeatable combination for success]():
+>Write a program that prints all possible combinations of single-digit numbers.
