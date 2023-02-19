@@ -44,3 +44,11 @@
 
 9. [Patience, persistence and perspiration make an unbeatable combination for success](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c):
 >Write a program that prints all possible combinations of single-digit numbers.
+
+10. [Inventing is a combination of brains and materials. The more brains you use, the less material you need](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c) :
+> Write a program that prints all possible different combinations of two digits.
+
+11. [The success combination in business is: Do what you do better... and: do more of what you do...](https://github.com/washucode/alx-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c) :
+>Write a program that prints all possible different combinations of three digits.
+
+
