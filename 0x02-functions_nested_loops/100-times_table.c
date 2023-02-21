@@ -31,7 +31,6 @@ void print_times_table(int n)
 				if (multiplied <= 9)
 				{
 					_putchar(32);
-					
 				}
 				else if (multiplied >= 100)
 				{
