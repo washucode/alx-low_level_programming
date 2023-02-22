@@ -15,8 +15,8 @@ int1 = int2;
 int2 = int3;
 
 if ((int1 % 2) == 0)
-sum += int1
+sum += int1;
 }
-printf("%1d\n", sum);
+printf("%ld\n", sum);
 return (0);
 }
