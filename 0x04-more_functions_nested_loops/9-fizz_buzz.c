@@ -1,26 +1,34 @@
 #include "main.h"
+#include <stdio.h>
 /**
-*print_square - prints a diagonal
-*@size:parameter
+ * main- entry point
+ *
 *Return:returns nothing
 */
 
-void print_square(int size)
+int main(void)
 {
-	int i, s;
+int  m;
+while (m++ < 100)
 
-	if (n <= 0)
-	{
-		_putchar(10);
-	}
-	else
-	{
-		for (i = 1 ; i <= n ; i++)
-		{
-			for (s = 1 ; s < n ; s++)
-				_putchar(35);
-			_putchar(35);
-			_putchar(10);
-		}
-	}
+if ((m % 3 == 0) && (m % 5 == 0))
+printf("FizzBuzz ");
+
+else if ((m % 3) == 0)
+printf("Fizz ");
+
+else if ((m % 5) == 0)
+{
+if (m != 100)
+printf("Buzz ");
+
+else
+printf("Buzz");
+}
+
+else
+printf("%d ", m);
+
+printf("\n");
+return (0);
 }
