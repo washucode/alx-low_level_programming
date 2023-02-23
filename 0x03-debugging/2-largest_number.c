@@ -22,7 +22,7 @@ largest = b;
 }
 else
 {
-xlargest = c;
+largest = c;
 }
 return (largest);
 }
