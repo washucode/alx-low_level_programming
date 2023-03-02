@@ -14,9 +14,9 @@ char *leet(char *n)
 
 	int i = 0;
 
-	char l[ ] = "aAeEOoTtLl";
+	char l[] = "aAeEOoTtLl";
 
-	char m[ ] = "4433007711";
+	char m[] = "4433007711";
 
 	while (n[i] != '\0')
 	{
