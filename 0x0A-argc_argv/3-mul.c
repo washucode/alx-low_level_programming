@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
-
 
 /**
  * main -  returns the multiplication of twoargumentnts
@@ -17,7 +14,7 @@ int main(int argc, char *argv[])
 
 	int n1 = 0, n2 = 0;
 
-	if (argc < 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
