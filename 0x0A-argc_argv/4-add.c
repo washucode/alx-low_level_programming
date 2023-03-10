@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int  c, sum = 0;
 
-	unsigned int x;
+	int x;
 
 	int i = 1;
 
@@ -28,11 +28,11 @@ int main(int argc, char *argv[])
 
 			x = 0;
 			c = 0;
-			while (x < strlen(argv[i]))
+			while (argv[i][x])
 			{
 				c = argv[i][x];
 
-				if (c < '0' && c > '9')
+				if (c < '0' || c > '9')
 				{
 					printf("Error\n");
 					return (1);
