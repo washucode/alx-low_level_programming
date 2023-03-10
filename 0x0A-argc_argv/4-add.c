@@ -32,17 +32,15 @@ int main(int argc, char *argv[])
 			{
 				c = argv[i][x];
 
-				if (c >= '0' && c <= '9')
+				if (c < '0' && c > '9')
 				{
-					sum += c - 48;
-				}
-				else
-				{
+			
 					printf("Error\n");
 					return (1);
 				}
 				x++;
 			}
+			sum += atoi(argv[i]);
 			i++;
 		}
 		printf("%d\n", sum);
