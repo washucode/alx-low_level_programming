@@ -36,11 +36,11 @@ int **alloc_grid(int width, int height)
 			free(mem_all);
 			return ('\0');
 		}
-	}
-	for (h = 0; h < height; h++)
-	{
+
 		for (w = 0; w < width; w++)
+		{
 			mem_all[h][w] = 0;
+		}
 	}
 	return (mem_all);
 }
