@@ -1,0 +1,24 @@
+#include "function_pointers.h"
+#include <stdlib.h>
+
+/**
+ *array_interator - function to execute action
+ * @array: ....
+ * @size: ...
+ * @action: ....
+ *
+ * Return: nothing
+ */
+
+
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+	int x;
+
+	if (array == '\0' || action == '\0')
+		return;
+	for (x = 0; x < (int) size ; x++)
+	{
+		action(array[x]);
+	}
+}
