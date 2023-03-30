@@ -5,7 +5,7 @@
  * add_node_end - adds node to the end of a linked list
  * @head: pointer to head
  * @str: data to be added
- * Return: the new last node
+ * Return: the new last node or NULL
  */
 
 list_t *add_node_end(list_t **head, const char *str)
@@ -27,8 +27,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	newStr = strdup(str);
 
-	len = 0;
-	for (len = 0;newStr[len];)
+	for (len = 0; newStr[len];)
 		len++;
 
 	lastNode->str = newStr;
