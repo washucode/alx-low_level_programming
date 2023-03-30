@@ -11,20 +11,21 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *lastNode;
-	list_t *this = *head;
+	list_t *cur;
 	char *newStr;
 	int len;
 
-	lastNode = malloc(sizeof(struct node));
+	lastNode = malloc(sizeof(list_t));
 	if (lastNode == NULL)
 		return (NULL);
 
-	newStr = strdup(str);
 	if (str == NULL)
 	{
 		free(lastNode);
 		return (NULL);
 	}
+
+	newStr = strdup(str);
 
 	len = 0;
 	while (newStr[len])
@@ -38,9 +39,10 @@ list_t *add_node_end(list_t **head, const char *str)
 		*head = lastNode;
 	else
 	{
-		while (this->next != NULL)
-			this = this->next;
-		this->next = lastNode;
+		cur = *head;
+		while (cur->next != NULL)
+			cur = cur->next;
+		cur->next = lastNode;
 	}
 	return (*head);
 }
