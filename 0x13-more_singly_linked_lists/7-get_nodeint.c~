@@ -1,0 +1,18 @@
+#include "lists.h"
+
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+{
+
+	listint_t *nth_Node = head;
+	unsigned int counter = 0;
+
+
+	while (nth_Node != NULL)
+	{
+		if (counter == index)
+			return (nth_Node->n);
+		counter++;
+		nth_Node = nth_Node->next;
+	}
+	return (NULL);
+}
