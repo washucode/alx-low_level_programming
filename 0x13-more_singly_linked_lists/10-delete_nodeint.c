@@ -8,8 +8,6 @@
  * Return: ...
  */
 
-
-
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *deletedNode, *holder;
@@ -25,17 +23,15 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		free(holder);
 		return (1);
 	}
-	else
+
+	while (--index > 0)
 	{
-		while (--index > 0)
-		{
-			if (holder->next == NULL)
-				return (-1);
-			holder = holder->next;
-		}
-		deletedNode = holder->next;
-		holder->next = deletedNode->next;
-		free(deletedNode);
-		return (1);
+		if (holder->next == NULL)
+			return (-1);
+		deletedNode = holder;
+		holder = holder->next;
 	}
+	deletedNode->next = holder->next;
+	free(holder);
+	return (1);
 }
