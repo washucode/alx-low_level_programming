@@ -41,8 +41,10 @@ int main(int argc, char *argv[])
 		if (size2 < buff_size)
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 	}
-	close(init_file);
-	close(dest_file);
+	if (close(init_file) == -1)
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", init_file), exit(100);
+	if (close(dest_file) == -1)
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", dest_file), exit(100);
 	return (0);
 }
 
