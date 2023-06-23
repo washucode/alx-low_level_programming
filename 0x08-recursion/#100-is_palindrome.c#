@@ -1,0 +1,41 @@
+#include "main.h"
+
+
+/**
+ * _string - funtion to print string in reverse
+ *@s: string to be printed
+ *@i: int
+ *@j : int
+ * Return: no return
+ */
+
+void _string(char *s, int i, int j)
+{
+	if (j == i)
+		return (1);
+	else if(s[i] == s[j])
+		return (_string(s, ++i, --j));
+	else
+		return (0);
+
+}
+
+/**
+ * is_palindrome - funtion to print string in reverse
+ *@s: string to be printed
+ *
+ * Return: 1 or 0
+ */
+
+int is_palindrome(char *s)
+{
+	if (_string(s) == _rev_string(s))
+		return (1);
+	if (_string(s) == "")
+		return (1);
+	else
+		return (0);
+}
+
+
+
