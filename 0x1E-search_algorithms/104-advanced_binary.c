@@ -52,7 +52,7 @@ int advanced_binary(int *array, size_t size, int value)
 
 	index = binary_search(array, size, value);
 
-	if(index > 0 && array[index - 1] != value)
+	if (index > 0 && array[index - 1] != value)
 		return (-1);
 	return (index);
 }
